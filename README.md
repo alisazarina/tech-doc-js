@@ -1,2 +1,2 @@
 # tech-doc-js
-A brief technical documentation of JavaScript referencing MDN
+A brief technical documentation of JavaScript (reference: MDN)
