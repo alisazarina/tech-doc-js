@@ -1,0 +1,82 @@
+/* id = #    |   class = .  */
+
+
+#navbar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    align-items: left;
+    flex-direction: column;
+}
+
+#navbar img {
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 20px 0px;
+}
+#navbar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #948e8e;
+    display: block;
+    font-family: Josefin Sans, sans-serif;
+}
+
+#navbar a:hover {
+    color: #f1f1f1;
+}
+
+
+.main-section {
+    padding: 30px 15px 30px 320px; /*padding clockwise (top, right, bottom, left) */
+}
+
+.main-section header {
+    font-family: Josefin Sans, sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.main-section mark {
+    background-color: #F7E018;
+}
+
+.main-section p, ul, li {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 22px;  /* sets padding between each line of text */
+    margin: 18px 0;     /* sets padding between li elements */
+}
+
+.main-section p {
+    padding-top: 10px;
+}
+
+
+/* SETS BACKGROUND BOX FOR CODE SNIPPETS */
+#box {
+    background-color:#eeeeee;
+    padding: 18px;
+}
+
+.main-section a:hover {
+    color: rgb(8, 8, 192);
+}
+
+
+/* === MEDIA QUERY ===
+@media (max-width: 900px) {
+
+} */
